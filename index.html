@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Tower Stack</title>
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧱</text></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <div id="container">
+
+        <div id="game"></div>
+
+        <header class="top-bar">
+
+            <div class="logo">
+                Tower Stack
+            </div>
+
+            <div class="stats">
+
+                <div class="card">
+
+                    <span class="label">
+                        Score
+                    </span>
+
+                    <span id="score">
+                        0
+                    </span>
+
+                </div>
+
+                <div class="card">
+
+                    <span class="label">
+                        Best
+                    </span>
+
+                    <span id="high-score">
+                        0
+                    </span>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <div id="instructions">
+
+            Click anywhere or press the
+            <strong>Spacebar</strong>
+            to place the block.
+
+        </div>
+
+        <div id="perfect">
+            Perfect!
+        </div>
+
+        <section class="screen game-ready">
+
+            <h1>
+                Tower Stack
+            </h1>
+
+            <p>
+
+                Stack each block as accurately as possible.
+                The game becomes faster as your score increases.
+
+            </p>
+
+            <button id="start-button">
+
+                Start Game
+
+            </button>
+
+            <p class="best-hint" id="best-hint">
+            </p>
+
+        </section>
+
+        <section class="screen game-over">
+
+            <h1>
+
+                Game Over
+
+            </h1>
+
+            <p>
+
+                Final Score
+
+            </p>
+
+            <h2 id="final-score">
+
+                0
+
+            </h2>
+
+            <p class="new-best" id="new-best-tag">
+                New Best!
+            </p>
+
+            <button id="restart-button">
+
+                Play Again
+
+            </button>
+
+        </section>
+
+        <footer class="bottom-bar">
+
+            <button id="sound-btn">
+
+                <span id="sound-icon" class="icon">
+                    <i id="icon-on" class="fa-solid fa-volume-high"></i>
+                    <i id="icon-off" class="fa-solid fa-volume-xmark"></i>
+                </span>
+
+                <span id="sound-label">Sound On</span>
+
+            </button>
+
+        </footer>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
