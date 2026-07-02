@@ -1,6 +1,7 @@
 # Live Demo
 
-You can play the game directly in your browser here: Play Tower Stack
+You can play the game directly in your browser here: [Play Tower Stack](https://mohhamza1804-spec.github.io/Block-Tower-Game/)
+
 #  Tower Stack
 
 A browser-based block-stacking game built with **Three.js**. Stack moving blocks as precisely as possible — every block you place gets sliced down to only the overlapping part, so accuracy is everything. Land one perfectly and you keep the full size (and get a little "Perfect!" bonus).
