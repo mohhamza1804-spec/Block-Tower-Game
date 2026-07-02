@@ -21,18 +21,18 @@ A browser-based block-stacking game built with **Three.js**. Stack moving blocks
 - Fully responsive — works on desktop and mobile (mouse, touch, and keyboard input all supported)
 - "New Best!" indicator when you beat your high score
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - [Three.js](https://threejs.org/) — 3D rendering
 - [GSAP (TweenMax)](https://greensock.com/gsap/) — animations
 - [Font Awesome](https://fontawesome.com/) — icons
 - Vanilla JavaScript, HTML, and CSS — no build tools or frameworks required
 
-## 📌 Notes
+## Notes
 
 - High scores and sound preference are stored in your browser's `localStorage`, so they're specific to each browser/device.
 - No backend or external API is required — everything runs client-side.
 
-## 📄 License
+##  License
 
 Feel free to use, modify, and share.
